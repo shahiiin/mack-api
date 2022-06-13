@@ -1,0 +1,6 @@
+.coming-soon {
+  background-image: url('./../../assets/images/comingSoon.webp');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 20rem 40rem;
+}

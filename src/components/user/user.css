@@ -1,0 +1,23 @@
+.user-info img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.card-info {
+  display: flex !important;
+  text-align: center;
+  padding: 5px !important;
+}
+
+.card-info p {
+  margin-top: 3px;
+  margin-left: 5px;
+  color: #16232C;
+  font-size: 15px;
+}
+.card-info span{
+  color: #dadad7;
+    font-size: 12px;
+}

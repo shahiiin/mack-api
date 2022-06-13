@@ -1,0 +1,71 @@
+{
+  "detylie" :[
+    {
+      "id": 1,
+      "content": "‘Shang-Chi’ Stays On Record Pace With Nearly $35.8 Million In Second Weekend;",
+      "high":"2250",
+      "low":"2100",
+      "message":"5415",
+      "total":"12.1587",
+      "name": "Brad Pitt",
+      "avatar":"require(./../../assets/images/pic4.jpeg)",
+      "info": "1434 entry"
+    },
+    {
+      "id": 2,
+      "content": "Daniel Craig: post your questions for the actor ahead of his final Bond film",
+      "high":"2255",
+      "low":"2105",
+      "message":"5420",
+      "total":"12.1587",
+      "name": "Tom Cruise",
+      "avatar": "require(./../../assets/images/pic4.jpeg)",
+      "info": "1435 entry"
+      
+    },
+    {
+      "id": 3,
+      "content": "I Carry You With Me review – hybrid feature charts a longterm love",
+      "high":"2260",
+      "low":"2110",
+      "message":"5425",
+      "total":"12.1587",
+      "name": "Denzel Washington",
+      "avatar": "require(./../../assets/images/pic2.jpeg)",
+      "info": "1436 entry"
+    },
+    {
+      "id": 4,
+      "content": "La Cha Cha review – caravan park comedy is fun, for the cast",
+      "high":"2265",
+      "low":"2115",
+      "message":"5430",
+      "total":"12.1587",  "name": "Tom Hanks",
+      "avatar": "require(./../../assets/images/pic5.jpeg)",
+      "info": "1437 entry"
+    },
+    {
+      "id": 5,
+      "content": "One Of Us Is Lying: Release Date, Cast, And More",
+      "high":"2270",
+      "low":"2115",
+      "message":"5435",
+      "total":"12.1587",
+      "name": "russell crowe",
+      "avatar": "require(./../../assets/images/pic2.jpeg)",
+      "info": "1438 entry"
+    },
+    {
+      "id": 6,
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+      "high":"2275",
+      "low":"2120",
+      "message":"5440",
+      "total":"12.1587",
+      "name": "Tom Hardy",
+      "avatar": "require(./../../assets/images/pic6.jpeg)",
+      "info": "1439 entry"
+    }
+  
+  ]
+}

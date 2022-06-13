@@ -1,0 +1,12 @@
+.user-info-header {
+  display: flex;
+  background-color: black;
+  width: 18rem;
+
+}
+
+.user-info-header p {
+  font-size: 14px;
+  color: #fff;
+  margin: 0.6rem;
+}
