@@ -8,7 +8,7 @@
       "message":"5415",
       "total":"12.1587",
       "name": "Brad Pitt",
-      "avatar":"require(./../../assets/images/pic4.jpeg)",
+      "avatar":"http://localhost:3002/assets/images/pic1.jpeg",
       "info": "1434 entry"
     },
     {
@@ -19,7 +19,7 @@
       "message":"5420",
       "total":"12.1587",
       "name": "Tom Cruise",
-      "avatar": "require(./../../assets/images/pic4.jpeg)",
+      "avatar": "http://localhost:3002/assets/images/pic4.jpeg",
       "info": "1435 entry"
       
     },
@@ -31,7 +31,7 @@
       "message":"5425",
       "total":"12.1587",
       "name": "Denzel Washington",
-      "avatar": "require(./../../assets/images/pic2.jpeg)",
+      "avatar": "http://localhost:3002/assets/images/pic2.jpeg",
       "info": "1436 entry"
     },
     {
@@ -41,7 +41,7 @@
       "low":"2115",
       "message":"5430",
       "total":"12.1587",  "name": "Tom Hanks",
-      "avatar": "require(./../../assets/images/pic5.jpeg)",
+      "avatar": "http://localhost:3002/assets/images/pic5.jpeg",
       "info": "1437 entry"
     },
     {
@@ -52,7 +52,7 @@
       "message":"5435",
       "total":"12.1587",
       "name": "russell crowe",
-      "avatar": "require(./../../assets/images/pic2.jpeg)",
+      "avatar": "http://localhost:3002/assets/images/pic2.jpeg",
       "info": "1438 entry"
     },
     {
@@ -63,7 +63,7 @@
       "message":"5440",
       "total":"12.1587",
       "name": "Tom Hardy",
-      "avatar": "require(./../../assets/images/pic6.jpeg)",
+      "avatar": "http://localhost:3002/assets/images/pic6.jpeg",
       "info": "1439 entry"
     }
   

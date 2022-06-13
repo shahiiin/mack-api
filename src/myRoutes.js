@@ -9,6 +9,7 @@ import {
     Router,
   Route,
   Routes,
+  Link
 }
   from "react-router-dom";
 
@@ -24,11 +25,12 @@ const styles = {
 const MyRoutes = () => {
   return (
     <>
-    <Header />
-    <Container fluid>
+
+      <Header />
+      <Container fluid>
         <Row style={styles.container}>
           <Col>
-           <Personal />
+            <Personal />
           </Col>
           <Col>
             <Router>
@@ -43,7 +45,7 @@ const MyRoutes = () => {
           </Col>
         </Row>
       </Container>
-      </>
+    </>
   )
 }
 export default MyRoutes

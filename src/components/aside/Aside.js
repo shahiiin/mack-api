@@ -3,6 +3,7 @@ import './aside.css'
 import { Card } from 'react-bootstrap'
 import { BsThreeDotsVertical, BsArrowUpShort } from "react-icons/bs";
 import { BiDownArrowAlt } from 'react-icons/bi'
+import { Link } from "react-router-dom";
 import { RiMessage2Fill } from "react-icons/ri";
 
 
@@ -17,11 +18,11 @@ const Aside = () => {
     )
       .then(res => {
         return res.json()
-     } )
-      
+      })
+
       .then(data => {
         setData(data)
-       
+
       })
   }
   useEffect(() => {
@@ -30,19 +31,25 @@ const Aside = () => {
 
   return (
     <div className="aside">
-      {data && data.length > 0 && data.map((item,index) => {
+      {/* <nav>
+        <Link to='/home'>
+          <button className='btn btn-primary'>Login</button>
+        </Link>
+      </nav> */}
+      {data && data.length > 0 && data.map((item, index) => {
         return (
-          <Card>
+          <Card key={index}>
+
             <Card.Title>
             </Card.Title>
             <Card.Body>
               <BsThreeDotsVertical style={{ position: 'absolute', marginLeft: '10rem' }} />
-              <p key={index}>{item.content}</p>
+              <p >{item.content}</p>
               <div className="icon">
                 <BsArrowUpShort style={{ color: '#9d9d95', fontSize: 14 }} />
-                <span key={index}>{item.high}</span>
+                <span>{item.high}</span>
                 <BiDownArrowAlt style={{ color: '#9d9d95', fontSize: 14 }} />
-                <span key={index}>{item.low}</span>
+                <span >{item.low}</span>
                 <RiMessage2Fill style={{ color: '#9d9d95', fontSize: 14 }} />
                 <span key={index}>{item.message}</span>
                 <span key={index}>{item.total}</span>
